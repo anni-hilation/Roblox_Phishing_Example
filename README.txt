@@ -1,6 +1,7 @@
 Educational phishing website example
 This cannot cause any harm due to the ngrok warning splash page.
 (unless you find a workaround, but im too stupid for that)
+(or you target absloute retards, that works too)
 
 Setup needed: 
 Python 3.14.0:
@@ -38,3 +39,4 @@ that will replace the exe with a new one, with all your changes. (not needed if 
 sure abt server but html is def safe)
 
 the "username" and the "password" are both avalible in the json file.
+
