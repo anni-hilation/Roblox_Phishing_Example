@@ -17,12 +17,12 @@ to link ngrok to your (free btw) ngrok account by running ngrok config add-autht
 with the key from your ngrok dashboard.
 
 Start Server manually: 
-1.navigate to Folder: (cd Desktop, cd RServer)
-2.run locally: python server.py
+1.navigate to Folder in cmd: (cd Desktop, cd RServer)
+2.run server locally with this command: python server.py
 3. open new cmd and run: ngrok http 3000
 4. ctrl C to stop (do in both command windows)
-(Problems migh happen because the public/index.html is called "template.index.html",and the Server expects "index.html" if
-starting manually, copy it and rename it "index.html". in line 119, 
+(Problems might happen because the public/index.html is called "template.index.html",and the Server expects "index.html" if
+starting manually, copy it and rename it "index.html". in line 119, (after starting the server locally and exposing it to the internet and then getting the url from ngrok) 
 enter the url that ngrok gives you 
 const response = await fetch("NGROK_URL_REPLACE/senden", {
 make sure to leave the /senden in)
@@ -40,3 +40,4 @@ sure abt server but html is def safe)
 
 the "username" and the "password" are both avalible in the json file.
 
+Have fun ripping off little kids
